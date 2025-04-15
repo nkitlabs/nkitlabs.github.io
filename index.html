@@ -1,1 +1,114 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, sans-serif;
+      }
+
+      body {
+        background-color: #f5f5f5;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: #2c3e50;
+      }
+
+      .profile-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 0 auto 1.5rem;
+        display: block;
+        object-fit: cover;
+      }
+
+      .bio {
+        background-color: white;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 2rem;
+      }
+
+      .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 2rem;
+      }
+
+      .social-links a {
+        color: #2c3e50;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        border: 1px solid #2c3e50;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+      }
+
+      .social-links a:hover {
+        background-color: #2c3e50;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="profile.jpg" alt="Profile Picture" class="profile-image" />
+        <h1>Natthakun Kitthaworn</h1>
+        <p>Software Engineer - driving by curiosity</p>
+      </header>
+
+      <section class="bio">
+        <h2>About Me</h2>
+        <p>
+          Welcome to my personal website! I'm passionate about programming and
+          building products. I'm currently working as a Software Engineer at
+          BandProtocol, building a decentralized network and backend services
+          for real-world data and supporting chains.
+        </p>
+
+        <h3>My Journey</h3>
+        <p>
+          I started my career in 2015 and have since worked on various projects
+          and many companies. My approach combines curiosity with passion and
+          building products that help people and businesses.
+        </p>
+      </section>
+
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/natthakun-kitthaworn-10a906160/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/nkitlabs" target="_blank">GitHub</a>
+        <a href="mailto:natthakunk0109@gmail.com">Contact</a>
+      </div>
+    </div>
+  </body>
+</html>
